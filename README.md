@@ -12,8 +12,8 @@ You can change the following in the script if you want
 
 To Run:
 
-- python yarnCloudwatchMetricsPublisher.py Or 
-- setup as cron Job which runs every 5 minutes: */5 * * * * /usr/bin/python /mnt/yarnCloudwatchMetricsPublisher/yarnCloudwatchMetricsPublisher.py > /dev/null 2>/dev/null
+- python yarnQueueConsumptionMetricsPublisher.py Or 
+- setup as cron Job which runs every 5 minutes: */5 * * * * /usr/bin/python /mnt/yarnCloudwatchMetricsPublisher/yarnQueueConsumptionMetricsPublisher.py > /dev/null 2>/dev/null
 
 - python yarnQueueStatesMetricsPublisher.py
 - setup as cron Job which runs every 5 minutes: */5 * * * * /usr/bin/python /mnt/yarnCloudwatchMetricsPublisher/yarnQueueStatesMetricsPublisher.py > /dev/null 2>/dev/null 
