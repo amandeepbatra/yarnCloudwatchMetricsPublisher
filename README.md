@@ -13,7 +13,7 @@ You can change the following in the script if you want
 To Run:
 
 - sh yarnCloudwatchMetricsPublisher.sh Or 
-- setup as cron Job which runs every 5 minutes: */5 * * * * /usr/bin/python sh /mnt/yarnMetricsScripts/yarnCloudwatchMetricsPublisher.sh > /dev/null 2>/dev/null
+- setup as cron Job which runs every 5 minutes: */5 * * * * /usr/bin/python /mnt/yarnMetricsScripts/yarnCloudwatchMetricsPublisher.sh > /dev/null 2>/dev/null
 
 Output:
 
